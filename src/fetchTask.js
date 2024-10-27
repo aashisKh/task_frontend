@@ -2,7 +2,7 @@ const fetchTask = async () => {
   console.log("Function called");
 
   try {
-    const allTask = await fetch("http://localhost:9000/task/get_task", {
+    const allTask = await fetch("http://localhost:4000/task/get_task", {
       method: "GET",
     });
 
