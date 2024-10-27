@@ -1,0 +1,28 @@
+
+.nav ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+.nav ul li{
+    list-style-type: none;
+}
+
+
+.task-list{
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.task{
+    padding:10px;
+    width: 23%;
+    height: auto;
+    background-color: lightgray;
+    border-radius: 5px;
+}
